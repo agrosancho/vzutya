@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    background-color: #AA7139;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: #447884;
+}
+
+nav{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog img{
+    height: 250px;
+    width: 300px;
+}
+
+.catalog article{
+    margin: 50px;
+    background-color: #447884;
+    border: 25px solid #447884;
+}
+
+.adress{
+    text-align: center;
+}
+
+.tel{
+    text-align: left;
+}
+
+footer div{
+    float: right;
+    width: 35%;
+}
+
+.felef{
+    float: left;
+}
+
+.pronas{
+    display: flex;
+    padding: 25px;
+}
+.pronas img{
+    margin: 40px;
+}
+
+.pronas p{
+    margin: 100px 0px 100px 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+.de{
+    display: flex;
+   justify-content: space-between;
+}
+
+nav a{
+        justify-content: space-around;
+        margin: 30px;
+        text-decoration: none;
+        background-color: #734C8F;
+        padding: 10px;
+        color: #ABA839;  
+}
+
+nav a:hover{
+    background-image:linear-gradient(blue,#ABA839);
+    transition: 2s;
+}
+
+.catalog article:hover{
+     transform: scale(1.5);
+     transition: 2s;
+}
+
+.neki{
+   margin: 0 14% 0 14%;
+}
